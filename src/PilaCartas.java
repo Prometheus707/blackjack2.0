@@ -1,6 +1,4 @@
-/**
- * Pila (stack) para historial de cartas jugadas.
- */
+//Pila (stack) para historial de cartas jugadas
 public class PilaCartas {
     private NodoCarta tope;
 
