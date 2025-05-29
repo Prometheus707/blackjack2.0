@@ -1,6 +1,4 @@
-/**
- * Cola (queue) para gestión de turnos.
- */
+//Cola (queue) para gestión de turnos.
 public class ColaTurnos {
     private NodoCola frente, fin;
 
