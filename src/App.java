@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-/**
- * Clase principal para ejecutar el juego Blackjack.
- */
+
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
