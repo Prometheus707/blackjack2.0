@@ -1,6 +1,4 @@
-/**
- * Nodo para la cola de turnos.
- */
+//Nodo para la cola de turnos
 public class NodoCola {
     public String jugador;
     public NodoCola siguiente;
