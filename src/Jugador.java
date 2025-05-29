@@ -1,6 +1,4 @@
-/**
- * Representa un jugador (humano o dealer).
- */
+//Representa un jugador (humano o dealer).
 public class Jugador {
     public String nombre;
     public NodoCarta mano; // Lista enlazada de cartas en mano
@@ -14,5 +12,4 @@ public class Jugador {
         this.plantado = false;
     }
 
-    // Métodos para agregar carta, calcular puntaje, mostrar mano, etc.
 }
