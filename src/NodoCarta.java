@@ -1,6 +1,4 @@
-/**
- * Nodo para la lista enlazada de cartas (baraja).
- */
+//Nodo para la lista enlazada de cartas (baraja)
 public class NodoCarta {
     public Carta carta;
     public NodoCarta siguiente;
