@@ -1,6 +1,4 @@
-/**
- * Representa una carta de la baraja.
- */
+//Representa una carta de la baraja.
 public class Carta {
     public String numero;
     public String palo;
