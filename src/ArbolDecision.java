@@ -1,6 +1,4 @@
-/**
- * Árbol binario de decisión para la lógica del dealer.
- */
+
 public class ArbolDecision {
     private NodoDecision raiz;
 
