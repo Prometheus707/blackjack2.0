@@ -1,6 +1,4 @@
-/**
- * Lista enlazada simple para representar la baraja.
- */
+// Lista enlazada simple para representar la baraja
 public class Baraja {
     private NodoCarta cabeza;
 
@@ -12,7 +10,7 @@ public class Baraja {
     public void inicializar() {
         String[] palos = {"Corazones", "Diamantes", "Tréboles", "Picas"};
         String[] numeros = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
-        int[] valores =   {11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10}; // Valores correctos
+        int[] valores =   {11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10}; // Valores cartas
 
         for (String palo : palos) {
             for (int i = 0; i < numeros.length; i++) {
