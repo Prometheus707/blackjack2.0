@@ -49,7 +49,7 @@ public class App {
             }
         }
 
-        // Turno del dealer (automático con árbol de decisión)
+        // Turno del dealer (automatico con arbol de decision)
         System.out.println("\nTurno de: Dealer");
         while (!dealer.plantado && dealer.puntaje < 21) {
             mostrarMano(dealer);
@@ -85,7 +85,6 @@ public class App {
 
     // Mezcla simple de la baraja (puedes mejorarla)
     private static void mezclarBaraja(Baraja baraja) {
-        // Para cumplir la restricción, puedes robar todas las cartas a un arreglo temporal y volver a insertarlas en orden aleatorio.
         Carta[] temp = new Carta[52];
         int count = 0;
         Carta c;
