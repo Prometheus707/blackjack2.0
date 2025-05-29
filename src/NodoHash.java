@@ -1,6 +1,4 @@
-/**
- * Nodo para la tabla hash de jugadores.
- */
+//Nodo para la tabla hash de jugadores
 public class NodoHash {
     public String clave; // nombre del jugador
     public Jugador valor;
