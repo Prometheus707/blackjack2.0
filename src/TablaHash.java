@@ -1,6 +1,4 @@
-/**
- * Tabla hash simple para almacenar jugadores.
- */
+//Tabla hash simple para almacenar jugadores
 public class TablaHash {
     private NodoHash[] tabla;
     private int capacidad = 10;
